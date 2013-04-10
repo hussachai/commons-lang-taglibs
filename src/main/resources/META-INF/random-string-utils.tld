@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+
+	<description>Commons-lang-2.4 RandomStringUtils functions library</description>
+	<display-name>Commons-lang RandomStringUtils</display-name>
+	<tlib-version>2.4</tlib-version>
+	<short-name>rndStr</short-name>
+	<uri>http://commons.apache.org/lang/RandomStringUtils</uri>
+	
+	<function>
+		<description>
+      		Creates a random string based on a variety of options, using default source of randomness.
+    	</description>
+		<name>random</name>
+		<function-class>org.apache.commons.lang.RandomStringUtils</function-class>
+		<function-signature>java.lang.String random(int, int, int, boolean, boolean, char[]) </function-signature>
+		<example>
+			random(count, start, end, letters, numbers, chars)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Creates a random string whose length is the number of characters specified.
+    	</description>
+		<name>randomAlphabetic</name>
+		<function-class>org.apache.commons.lang.RandomStringUtils</function-class>
+		<function-signature>java.lang.String randomAlphabetic(int) </function-signature>
+		<example>
+			randomAlphabetic(count)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Creates a random string whose length is the number of characters specified.
+    	</description>
+		<name>randomAlphanumeric</name>
+		<function-class>org.apache.commons.lang.RandomStringUtils</function-class>
+		<function-signature>java.lang.String randomAlphanumeric(int)  </function-signature>
+		<example>
+			randomAlphanumeric(count)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Creates a random string whose length is the number of characters specified.
+    	</description>
+		<name>randomAscii</name>
+		<function-class>org.apache.commons.lang.RandomStringUtils</function-class>
+		<function-signature>java.lang.String randomAscii(int)  </function-signature>
+		<example>
+			randomAscii(count)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Creates a random string whose length is the number of characters specified.
+    	</description>
+		<name>randomNumeric</name>
+		<function-class>org.apache.commons.lang.RandomStringUtils</function-class>
+		<function-signature>java.lang.String randomNumeric(int count) </function-signature>
+		<example>
+			randomNumeric(count)
+		</example>
+	</function>
+	
+	
+</taglib>

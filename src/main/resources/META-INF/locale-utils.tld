@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+
+	<description>Commons-lang-2.4 LocaleUtils functions library</description>
+	<display-name>Commons-lang LocaleUtils</display-name>
+	<tlib-version>2.4</tlib-version>
+	<short-name>rndStr</short-name>
+	<uri>http://commons.apache.org/lang/LocaleUtils</uri>
+	
+	<function>
+		<description>
+      		Obtains an unmodifiable list of installed locales.
+    	</description>
+		<name>availableLocaleList</name>
+		<function-class>org.apache.commons.lang.LocaleUtils</function-class>
+		<function-signature>java.util.List availableLocaleList() </function-signature>
+		<example>
+			availableLocaleList()
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Obtains an unmodifiable set of installed locales.
+    	</description>
+		<name>availableLocaleSet</name>
+		<function-class>org.apache.commons.lang.LocaleUtils</function-class>
+		<function-signature>java.util.Set availableLocaleSet() </function-signature>
+		<example>
+			availableLocaleSet()
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Obtains the list of countries supported for a given language.
+    	</description>
+		<name>countriesByLanguage</name>
+		<function-class>org.apache.commons.lang.LocaleUtils</function-class>
+		<function-signature>java.util.List countriesByLanguage(java.lang.String) </function-signature>
+		<example>
+			countriesByLanguage(languageCode)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Checks if the locale specified is in the list of available locales.
+    	</description>
+		<name>isAvailableLocale</name>
+		<function-class>org.apache.commons.lang.LocaleUtils</function-class>
+		<function-signature>boolean isAvailableLocale(java.util.Locale)  </function-signature>
+		<example>
+			isAvailableLocale(locale)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Obtains the list of languages supported for a given country.
+    	</description>
+		<name>languagesByCountry</name>
+		<function-class>org.apache.commons.lang.LocaleUtils</function-class>
+		<function-signature>java.util.List languagesByCountry(java.lang.String) </function-signature>
+		<example>
+			languagesByCountry(countryCode)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Obtains the list of locales to search through when performing a locale search.
+    	</description>
+		<name>localeLookupList</name>
+		<function-class>org.apache.commons.lang.LocaleUtils</function-class>
+		<function-signature>java.util.List localeLookupList(java.util.Locale, java.util.Locale)  </function-signature>
+		<example>
+			localeLookupList(locale, defaultLocale)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Converts a String to a Locale.
+    	</description>
+		<name>toLocale</name>
+		<function-class>org.apache.commons.lang.LocaleUtils</function-class>
+		<function-signature>java.util.Locale toLocale(java.lang.String str) </function-signature>
+		<example>
+			toLocale(str)
+		</example>
+	</function>
+	
+</taglib>

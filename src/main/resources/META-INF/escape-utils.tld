@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+
+	<description>Commons-lang-2.4 StringEscapeUtils functions library</description>
+	<display-name>Commons-lang StringEscapeUtils</display-name>
+	<tlib-version>2.4</tlib-version>
+	<short-name>esc</short-name>
+	<uri>http://commons.apache.org/lang/StringEscapeUtils</uri>
+	
+	<function>
+		<description>
+      		Returns a String value for a CSV column enclosed in double quotes, if required
+    	</description>
+		<name>escapeCsv</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String escapeCsv(java.lang.String)  </function-signature>
+		<example>
+			escapeCsv(str)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Escapes the characters in a String using HTML entities.
+    	</description>
+		<name>escapeHtml</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String escapeHtml(java.lang.String)  </function-signature>
+		<example>
+			escapeHtml(str)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Escapes the characters in a String using Java String rules.
+    	</description>
+		<name>escapeJava</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String escapeJava(java.lang.String)  </function-signature>
+		<example>
+			escapeJava(str)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		 Escapes the characters in a String using JavaScript String rules.
+    	</description>
+		<name>escapeJavaScript</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String escapeJavaScript(java.lang.String)  </function-signature>
+		<example>
+			escapeJavaScript(str)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		 Escapes the characters in a String to be suitable to pass to an SQL query.
+    	</description>
+		<name>escapeSql</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String escapeSql(java.lang.String)  </function-signature>
+		<example>
+			escapeSql(str)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Escapes the characters in a String using XML entities.
+    	</description>
+		<name>escapeXml</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String escapeXml(java.lang.String)  </function-signature>
+		<example>
+			escapeXml(str)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Returns a String value for an unescaped CSV column.
+    	</description>
+		<name>unescapeCsv</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String unescapeCsv(java.lang.String)  </function-signature>
+		<example>
+			unescapeCsv(str)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Unescapes a string containing entity escapes to a string containing 
+      		the actual Unicode characters corresponding to the escapes.
+    	</description>
+		<name>unescapeHtml</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String unescapeHtml(java.lang.String)  </function-signature>
+		<example>
+			unescapeHtml(str)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Unescapes any Java literals found in the String.
+    	</description>
+		<name>unescapeJava</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String unescapeJava(java.lang.String)  </function-signature>
+		<example>
+			unescapeJava(str)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Unescapes any JavaScript literals found in the String.
+    	</description>
+		<name>unescapeJavaScript</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String unescapeJavaScript(java.lang.String)  </function-signature>
+		<example>
+			unescapeJavaScript(str)
+		</example>
+	</function>
+	
+	<function>
+		<description>
+      		Unescapes a string containing XML entity escapes to 
+      		a string containing the actual Unicode characters 
+      		corresponding to the escapes.
+    	</description>
+		<name>unescapeXml</name>
+		<function-class>org.apache.commons.lang.StringEscapeUtils</function-class>
+		<function-signature>java.lang.String unescapeXml(java.lang.String)  </function-signature>
+		<example>
+			unescapeXml(str)
+		</example>
+	</function>
+	
+</taglib>
