@@ -12,5 +12,6 @@ If you want to update this one, you can fork it or make a pull request.
 I prefer latter because it's better to have single updated repository.
 You may ask me to join this project if you want.
 
-Fee free to ask me any questions here
+Feel free to ask me any questions and vist my website
+
 [http://www.siberhus.com](http://www.siberhus.com)
