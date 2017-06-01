@@ -172,7 +172,7 @@
     	</description>
 		<name>deleteWhitespace</name>
 		<function-class>org.apache.commons.lang.StringUtils</function-class>
-		<function-signature>java.lang.String deleteWhitespace(java.lang.String str) </function-signature>
+		<function-signature>java.lang.String deleteWhitespace(java.lang.String) </function-signature>
 		<example>
 			deleteWhitespace("input")
 		</example>
@@ -184,7 +184,7 @@
     	</description>
 		<name>difference</name>
 		<function-class>org.apache.commons.lang.StringUtils</function-class>
-		<function-signature>java.lang.String difference(java.lang.String str1, java.lang.String str2)</function-signature>
+		<function-signature>java.lang.String difference(java.lang.String, java.lang.String)</function-signature>
 		<example>
 			difference("str1", "str2")
 		</example>
@@ -305,7 +305,7 @@
     	</description>
 		<name>indexOfDifference</name>
 		<function-class>org.apache.commons.lang.StringUtils</function-class>
-		<function-signature>int indexOfDifference(java.lang.String[] strs)</function-signature>
+		<function-signature>int indexOfDifference(java.lang.String[])</function-signature>
 		<example>
 			indexOfDifference(strs)
 		</example>
@@ -488,7 +488,7 @@
     	</description>
 		<name>join</name>
 		<function-class>org.apache.commons.lang.StringUtils</function-class>
-		<function-signature>java.lang.String join(java.lang.Object[] array, java.lang.String separator)</function-signature>
+		<function-signature>java.lang.String join(java.lang.Object[], java.lang.String)</function-signature>
 		<example>
 			join(array, separator)
 		</example>
@@ -548,7 +548,7 @@
     	</description>
 		<name>length</name>
 		<function-class>org.apache.commons.lang.StringUtils</function-class>
-		<function-signature>int length(java.lang.String str) </function-signature>
+		<function-signature>int length(java.lang.String) </function-signature>
 		<example>
 			length(str)
 		</example>
@@ -704,7 +704,7 @@
     	</description>
 		<name>reverse</name>
 		<function-class>org.apache.commons.lang.StringUtils</function-class>
-		<function-signature>java.lang.String reverse(java.lang.String str) </function-signature>
+		<function-signature>java.lang.String reverse(java.lang.String) </function-signature>
 		<example>
 			reverse(str)
 		</example>
